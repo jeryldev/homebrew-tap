@@ -1,8 +1,8 @@
 class DevSessionManager < Formula
   desc "Quick development session bootstrapping with tmux"
   homepage "https://github.com/jeryldev/dev-session-manager"
-  url "https://github.com/jeryldev/dev-session-manager/archive/refs/tags/v2.1.2.tar.gz"
-  sha256 "ab153495582421d7772aa6095ccbe8ccd30cfa2ec781ce058f86b3cdca126b99"
+  url "https://github.com/jeryldev/dev-session-manager/archive/refs/tags/v2.1.3.tar.gz"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
   license "MIT"
 
   depends_on "tmux"
