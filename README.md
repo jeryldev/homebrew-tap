@@ -26,6 +26,22 @@ brew install dev-session-manager
 
 **Repository:** [jeryldev/dev-session-manager](https://github.com/jeryldev/dev-session-manager)
 
+### kb
+
+Terminal Kanban board for personal project management.
+
+```zsh
+brew install jeryldev/tap/kb
+```
+
+Or after tapping:
+
+```zsh
+brew install kb
+```
+
+**Repository:** [jeryldev/kb](https://github.com/jeryldev/kb)
+
 ## License
 
 MIT
