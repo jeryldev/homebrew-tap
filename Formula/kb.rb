@@ -5,21 +5,21 @@
 class Kb < Formula
   desc "Terminal Kanban board for personal project management"
   homepage "https://github.com/jeryldev/kb"
-  version "0.1.3"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/jeryldev/kb/releases/download/v0.1.3/kb_darwin_amd64.tar.gz"
-      sha256 "7b2d718e115bc346befb915f88874db7f9377c4463f241c74e8ca31d7e0a6903"
+      url "https://github.com/jeryldev/kb/releases/download/v0.2.0/kb_darwin_amd64.tar.gz"
+      sha256 "f365fc938dcdf96c2e7a8afb171403c455c5ce7ee86eda11e2bd7b80455eb348"
 
       define_method(:install) do
         bin.install "kb"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/jeryldev/kb/releases/download/v0.1.3/kb_darwin_arm64.tar.gz"
-      sha256 "533901c7d115065b3a3b1003a723f30e07ea3974d6fe7edaf6b2d89768008f1d"
+      url "https://github.com/jeryldev/kb/releases/download/v0.2.0/kb_darwin_arm64.tar.gz"
+      sha256 "67007a0b25b6e5acd5a2ee105e4b5f52e2a6d6e80da05c8f2c680379ba7c3d82"
 
       define_method(:install) do
         bin.install "kb"
@@ -29,15 +29,15 @@ class Kb < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jeryldev/kb/releases/download/v0.1.3/kb_linux_amd64.tar.gz"
-      sha256 "43af2d90fa9c6a7e7fede6cb505209a5c59fb6d0b93dd72ff00a1ff19a5cf536"
+      url "https://github.com/jeryldev/kb/releases/download/v0.2.0/kb_linux_amd64.tar.gz"
+      sha256 "8af3e4c16345ccf73b816c9b82aef5f100bc74cd1cb57c59aeca37ce1c42e197"
       define_method(:install) do
         bin.install "kb"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jeryldev/kb/releases/download/v0.1.3/kb_linux_arm64.tar.gz"
-      sha256 "7940b8bb1db8b0b13cc5b3978c5af63d04934cf317fae609f843fcd8471e5555"
+      url "https://github.com/jeryldev/kb/releases/download/v0.2.0/kb_linux_arm64.tar.gz"
+      sha256 "30eebc7919fb613fe09effdccbdbdf5a3c7b66f6a274a95a5fc63569a01210ed"
       define_method(:install) do
         bin.install "kb"
       end
